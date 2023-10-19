@@ -14,8 +14,8 @@ int main() {
 
     BB = new int[ujemne];
     int iterator = 0;
-    for(int i = 0; i < 10; ++i){
-        if(AA[i] < 0){
+    for(int i = 0; i < 10; ++i) {
+        if(AA[i] < 0) {
             BB[iterator] = AA[i];
             iterator++;
         }
